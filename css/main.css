@@ -17,13 +17,13 @@ h2 {
   font-size: 3rem;
   color: #333;
   display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  line-height: 1.4;
+  margin: 0;
+  line-height: 1;
 }
 
 .logo {
   float: left;
+  margin-right: 2rem;
 }
 
 .banner {
@@ -48,8 +48,9 @@ p {
   position: absolute;
   bottom: 1rem;
   max-width: 50em;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 100%;
   display: block;
 }
@@ -72,4 +73,9 @@ a {
 
 .btn-big {
   font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
