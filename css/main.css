@@ -19,6 +19,8 @@ h2 {
   display: block;
   margin: 0;
   line-height: 1;
+  height: 100px;
+  width: 590px;
 }
 
 .logo {
@@ -42,6 +44,7 @@ p {
   font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: .5rem;
+  width: 656px;
 }
 
 .banner-content {
@@ -70,6 +73,10 @@ a {
   color: #fff;
   border-color: #333;
   display: inline-block;
+  float: right;
+  left: 51%;
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 .btn-big {
@@ -79,4 +86,13 @@ a {
 .btn:hover {
   background-color: #000;
   border-color: #000;
+}
+
+@media only screen and (min-width: 90em) {
+
+  .btn {
+    left: 46%;
+  }
+
+
 }
